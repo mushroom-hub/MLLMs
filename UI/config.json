@@ -1,0 +1,34 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "src": "src/pages/Dashboard.tsx"
+    }
+  ],
+  "components": [
+    {
+      "name": "Sidebar",
+      "src": "src/components/Sidebar.tsx"
+    },
+    {
+      "name": "ChatInterface",
+      "src": "src/components/ChatInterface.tsx"
+    },
+    {
+      "name": "MessageItem",
+      "src": "src/components/MessageItem.tsx"
+    },
+    {
+      "name": "InputArea",
+      "src": "src/components/InputArea.tsx"
+    },
+    {
+      "name": "SourceDetails",
+      "src": "src/components/SourceDetails.tsx"
+    },
+    {
+      "name": "ScrollArea",
+      "src": "src/components/ui/scroll-area.tsx"
+    }
+  ]
+}

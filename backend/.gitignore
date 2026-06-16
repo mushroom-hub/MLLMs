@@ -1,0 +1,40 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 日志和临时文件
+logs/
+*.log
+uploads/
+temp/
+
+# FAISS 索引（可选，避免版本控制）
+data/faiss_index/
+
+# 模型文件（太大，不在 Git 中跟踪）
+models/
+*.bin
+*.safetensors
+
+# 环境配置
+.env
+.env.local
+
+# OS
+Thumbs.db
+.DS_Store

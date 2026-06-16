@@ -1,0 +1,28 @@
+{
+  "ui_framework": "shadcn_ui",
+  "framework_profile_version": "2026-04-16",
+  "provider_kind": "",
+  "entry_style_imports": [
+    "./framework/theme.css"
+  ],
+  "runtime_packages": [
+    "class-variance-authority",
+    "clsx",
+    "tailwind-merge",
+    "@radix-ui/react-slot",
+    "@radix-ui/react-tabs"
+  ],
+  "theme_color": "auto",
+  "appearance_mode": "light",
+  "theme_summary": {
+    "background": "#f7f8fc",
+    "text": "#111827",
+    "primary": "#2563eb"
+  },
+  "validation_passed": true,
+  "validation_errors": [],
+  "repair_rounds": 0,
+  "typescript_check_passed": true,
+  "build_passed": true,
+  "react_platform": null
+}

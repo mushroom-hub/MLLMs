@@ -69,7 +69,6 @@ SUBJECTS = [
     "计算机组成原理",
     "计算机网络",
     "操作系统",
-    "算法与编程",
     "全部学科"
 ]
 
@@ -78,7 +77,6 @@ SUBJECT_FILENAME = {
     "计算机组成原理": "computer_organization",
     "计算机网络": "computer_network",
     "操作系统": "operating_system",
-    "算法与编程": "algorithm",
     "全部学科": "all",
 }
 

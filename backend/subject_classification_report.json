@@ -1,0 +1,586 @@
+{
+  "results": {
+    "total": 40,
+    "correct": 40,
+    "by_subject": {
+      "数据结构": {
+        "total": 10,
+        "correct": 10
+      },
+      "计算机网络": {
+        "total": 10,
+        "correct": 10
+      },
+      "操作系统": {
+        "total": 10,
+        "correct": 10
+      },
+      "计算机组成原理": {
+        "total": 10,
+        "correct": 10
+      }
+    },
+    "details": [
+      {
+        "question": "链表的头插法和尾插法区别",
+        "true_subject": "数据结构",
+        "predicted_subject": "数据结构",
+        "confidence": 0.5258,
+        "scores": {
+          "数据结构": 0.5258,
+          "计算机组成原理": 0.3355,
+          "计算机网络": 0.3326,
+          "操作系统": 0.3261
+        },
+        "correct": true
+      },
+      {
+        "question": "二叉树的前中后序遍历递归实现",
+        "true_subject": "数据结构",
+        "predicted_subject": "数据结构",
+        "confidence": 0.6253,
+        "scores": {
+          "数据结构": 0.6253,
+          "计算机组成原理": 0.3356,
+          "计算机网络": 0.3332,
+          "操作系统": 0.3219
+        },
+        "correct": true
+      },
+      {
+        "question": "图的深度优先搜索DFS算法",
+        "true_subject": "数据结构",
+        "predicted_subject": "数据结构",
+        "confidence": 0.5314,
+        "scores": {
+          "数据结构": 0.5314,
+          "计算机组成原理": 0.3343,
+          "计算机网络": 0.331,
+          "操作系统": 0.3228
+        },
+        "correct": true
+      },
+      {
+        "question": "哈希冲突的解决方法有哪些",
+        "true_subject": "数据结构",
+        "predicted_subject": "数据结构",
+        "confidence": 0.513,
+        "scores": {
+          "数据结构": 0.513,
+          "计算机组成原理": 0.322,
+          "计算机网络": 0.3229,
+          "操作系统": 0.3153
+        },
+        "correct": true
+      },
+      {
+        "question": "堆排序的时间复杂度分析",
+        "true_subject": "数据结构",
+        "predicted_subject": "数据结构",
+        "confidence": 0.7064,
+        "scores": {
+          "数据结构": 0.7064,
+          "计算机组成原理": 0.3357,
+          "计算机网络": 0.333,
+          "操作系统": 0.3202
+        },
+        "correct": true
+      },
+      {
+        "question": "动态规划和贪心的适用场景",
+        "true_subject": "数据结构",
+        "predicted_subject": "数据结构",
+        "confidence": 0.5997,
+        "scores": {
+          "数据结构": 0.5997,
+          "计算机组成原理": 0.3297,
+          "计算机网络": 0.3291,
+          "操作系统": 0.3212
+        },
+        "correct": true
+      },
+      {
+        "question": "并查集解决连通性问题",
+        "true_subject": "数据结构",
+        "predicted_subject": "数据结构",
+        "confidence": 0.5236,
+        "scores": {
+          "数据结构": 0.5236,
+          "计算机组成原理": 0.34,
+          "计算机网络": 0.3401,
+          "操作系统": 0.3279
+        },
+        "correct": true
+      },
+      {
+        "question": "AVL树和红黑树的平衡策略对比",
+        "true_subject": "数据结构",
+        "predicted_subject": "数据结构",
+        "confidence": 0.7918,
+        "scores": {
+          "数据结构": 0.7918,
+          "计算机组成原理": 0.3294,
+          "计算机网络": 0.3282,
+          "操作系统": 0.318
+        },
+        "correct": true
+      },
+      {
+        "question": "Trie字典树的插入和查找",
+        "true_subject": "数据结构",
+        "predicted_subject": "数据结构",
+        "confidence": 0.796,
+        "scores": {
+          "数据结构": 0.796,
+          "计算机组成原理": 0.3351,
+          "计算机网络": 0.3361,
+          "操作系统": 0.3274
+        },
+        "correct": true
+      },
+      {
+        "question": "拓扑排序Kahn算法步骤",
+        "true_subject": "数据结构",
+        "predicted_subject": "数据结构",
+        "confidence": 0.5231,
+        "scores": {
+          "数据结构": 0.5231,
+          "计算机组成原理": 0.3338,
+          "计算机网络": 0.33,
+          "操作系统": 0.3219
+        },
+        "correct": true
+      },
+      {
+        "question": "TCP三次握手和四次挥手机制",
+        "true_subject": "计算机网络",
+        "predicted_subject": "计算机网络",
+        "confidence": 0.703,
+        "scores": {
+          "数据结构": 0.3316,
+          "计算机组成原理": 0.3346,
+          "计算机网络": 0.703,
+          "操作系统": 0.3256
+        },
+        "correct": true
+      },
+      {
+        "question": "HTTP和HTTPS的主要区别",
+        "true_subject": "计算机网络",
+        "predicted_subject": "计算机网络",
+        "confidence": 0.5213,
+        "scores": {
+          "数据结构": 0.3282,
+          "计算机组成原理": 0.335,
+          "计算机网络": 0.5213,
+          "操作系统": 0.3261
+        },
+        "correct": true
+      },
+      {
+        "question": "DNS域名解析的完整过程",
+        "true_subject": "计算机网络",
+        "predicted_subject": "计算机网络",
+        "confidence": 0.5244,
+        "scores": {
+          "数据结构": 0.3361,
+          "计算机组成原理": 0.3371,
+          "计算机网络": 0.5244,
+          "操作系统": 0.3274
+        },
+        "correct": true
+      },
+      {
+        "question": "ARP协议如何获取MAC地址",
+        "true_subject": "计算机网络",
+        "predicted_subject": "计算机网络",
+        "confidence": 0.709,
+        "scores": {
+          "数据结构": 0.3325,
+          "计算机组成原理": 0.336,
+          "计算机网络": 0.709,
+          "操作系统": 0.3268
+        },
+        "correct": true
+      },
+      {
+        "question": "TCP拥塞控制四个算法阶段",
+        "true_subject": "计算机网络",
+        "predicted_subject": "计算机网络",
+        "confidence": 0.6148,
+        "scores": {
+          "数据结构": 0.3337,
+          "计算机组成原理": 0.3376,
+          "计算机网络": 0.6148,
+          "操作系统": 0.3215
+        },
+        "correct": true
+      },
+      {
+        "question": "OSI七层模型各层功能",
+        "true_subject": "计算机网络",
+        "predicted_subject": "计算机网络",
+        "confidence": 0.6038,
+        "scores": {
+          "数据结构": 0.3334,
+          "计算机组成原理": 0.3388,
+          "计算机网络": 0.6038,
+          "操作系统": 0.3218
+        },
+        "correct": true
+      },
+      {
+        "question": "路由器和交换机的工作层次",
+        "true_subject": "计算机网络",
+        "predicted_subject": "计算机网络",
+        "confidence": 0.6097,
+        "scores": {
+          "数据结构": 0.33,
+          "计算机组成原理": 0.3392,
+          "计算机网络": 0.6097,
+          "操作系统": 0.3241
+        },
+        "correct": true
+      },
+      {
+        "question": "子网划分和CIDR表示方法",
+        "true_subject": "计算机网络",
+        "predicted_subject": "计算机网络",
+        "confidence": 0.5136,
+        "scores": {
+          "数据结构": 0.3396,
+          "计算机组成原理": 0.3336,
+          "计算机网络": 0.5136,
+          "操作系统": 0.3238
+        },
+        "correct": true
+      },
+      {
+        "question": "Socket编程的基本流程",
+        "true_subject": "计算机网络",
+        "predicted_subject": "计算机网络",
+        "confidence": 0.5267,
+        "scores": {
+          "数据结构": 0.3372,
+          "计算机组成原理": 0.3408,
+          "计算机网络": 0.5267,
+          "操作系统": 0.3221
+        },
+        "correct": true
+      },
+      {
+        "question": "HTTP/2相比HTTP/1.1的改进",
+        "true_subject": "计算机网络",
+        "predicted_subject": "计算机网络",
+        "confidence": 0.6125,
+        "scores": {
+          "数据结构": 0.3328,
+          "计算机组成原理": 0.3352,
+          "计算机网络": 0.6125,
+          "操作系统": 0.3282
+        },
+        "correct": true
+      },
+      {
+        "question": "进程和线程的核心区别",
+        "true_subject": "操作系统",
+        "predicted_subject": "操作系统",
+        "confidence": 0.5885,
+        "scores": {
+          "数据结构": 0.3329,
+          "计算机组成原理": 0.3368,
+          "计算机网络": 0.3302,
+          "操作系统": 0.5885
+        },
+        "correct": true
+      },
+      {
+        "question": "死锁产生的四个必要条件",
+        "true_subject": "操作系统",
+        "predicted_subject": "操作系统",
+        "confidence": 0.59,
+        "scores": {
+          "数据结构": 0.3257,
+          "计算机组成原理": 0.3294,
+          "计算机网络": 0.3256,
+          "操作系统": 0.59
+        },
+        "correct": true
+      },
+      {
+        "question": "LRU页面置换算法实现",
+        "true_subject": "操作系统",
+        "predicted_subject": "操作系统",
+        "confidence": 0.5952,
+        "scores": {
+          "数据结构": 0.3395,
+          "计算机组成原理": 0.3389,
+          "计算机网络": 0.3323,
+          "操作系统": 0.5952
+        },
+        "correct": true
+      },
+      {
+        "question": "进程调度算法FCFS SJF RR",
+        "true_subject": "操作系统",
+        "predicted_subject": "操作系统",
+        "confidence": 0.9267,
+        "scores": {
+          "数据结构": 0.34,
+          "计算机组成原理": 0.3418,
+          "计算机网络": 0.3346,
+          "操作系统": 0.9267
+        },
+        "correct": true
+      },
+      {
+        "question": "虚拟内存的实现原理",
+        "true_subject": "操作系统",
+        "predicted_subject": "操作系统",
+        "confidence": 0.5034,
+        "scores": {
+          "数据结构": 0.3459,
+          "计算机组成原理": 0.3526,
+          "计算机网络": 0.3364,
+          "操作系统": 0.5034
+        },
+        "correct": true
+      },
+      {
+        "question": "信号量和互斥锁解决同步问题",
+        "true_subject": "操作系统",
+        "predicted_subject": "操作系统",
+        "confidence": 0.7738,
+        "scores": {
+          "数据结构": 0.333,
+          "计算机组成原理": 0.3431,
+          "计算机网络": 0.3371,
+          "操作系统": 0.7738
+        },
+        "correct": true
+      },
+      {
+        "question": "文件系统的inode结构",
+        "true_subject": "操作系统",
+        "predicted_subject": "操作系统",
+        "confidence": 0.5048,
+        "scores": {
+          "数据结构": 0.339,
+          "计算机组成原理": 0.34,
+          "计算机网络": 0.3322,
+          "操作系统": 0.5048
+        },
+        "correct": true
+      },
+      {
+        "question": "系统调用和库函数的区别",
+        "true_subject": "操作系统",
+        "predicted_subject": "操作系统",
+        "confidence": 0.5035,
+        "scores": {
+          "数据结构": 0.3371,
+          "计算机组成原理": 0.3381,
+          "计算机网络": 0.3286,
+          "操作系统": 0.5035
+        },
+        "correct": true
+      },
+      {
+        "question": "上下文切换的开销分析",
+        "true_subject": "操作系统",
+        "predicted_subject": "操作系统",
+        "confidence": 0.5044,
+        "scores": {
+          "数据结构": 0.3307,
+          "计算机组成原理": 0.333,
+          "计算机网络": 0.3318,
+          "操作系统": 0.5044
+        },
+        "correct": true
+      },
+      {
+        "question": "段页式内存管理方式",
+        "true_subject": "操作系统",
+        "predicted_subject": "操作系统",
+        "confidence": 0.5058,
+        "scores": {
+          "数据结构": 0.3465,
+          "计算机组成原理": 0.3498,
+          "计算机网络": 0.3347,
+          "操作系统": 0.5058
+        },
+        "correct": true
+      },
+      {
+        "question": "冯诺依曼体系结构五大部件",
+        "true_subject": "计算机组成原理",
+        "predicted_subject": "计算机组成原理",
+        "confidence": 0.5156,
+        "scores": {
+          "数据结构": 0.3287,
+          "计算机组成原理": 0.5156,
+          "计算机网络": 0.3244,
+          "操作系统": 0.319
+        },
+        "correct": true
+      },
+      {
+        "question": "Cache直接映射组相联全相联",
+        "true_subject": "计算机组成原理",
+        "predicted_subject": "计算机组成原理",
+        "confidence": 0.5342,
+        "scores": {
+          "数据结构": 0.3397,
+          "计算机组成原理": 0.5342,
+          "计算机网络": 0.3342,
+          "操作系统": 0.324
+        },
+        "correct": true
+      },
+      {
+        "question": "MIPS指令格式R型I型J型",
+        "true_subject": "计算机组成原理",
+        "predicted_subject": "计算机组成原理",
+        "confidence": 0.6206,
+        "scores": {
+          "数据结构": 0.3348,
+          "计算机组成原理": 0.6206,
+          "计算机网络": 0.5138,
+          "操作系统": 0.3234
+        },
+        "correct": true
+      },
+      {
+        "question": "流水线冒险数据冒险控制冒险",
+        "true_subject": "计算机组成原理",
+        "predicted_subject": "计算机组成原理",
+        "confidence": 0.5223,
+        "scores": {
+          "数据结构": 0.3294,
+          "计算机组成原理": 0.5223,
+          "计算机网络": 0.3308,
+          "操作系统": 0.3214
+        },
+        "correct": true
+      },
+      {
+        "question": "DRAM和SRAM存储原理差异",
+        "true_subject": "计算机组成原理",
+        "predicted_subject": "计算机组成原理",
+        "confidence": 0.6223,
+        "scores": {
+          "数据结构": 0.335,
+          "计算机组成原理": 0.6223,
+          "计算机网络": 0.3288,
+          "操作系统": 0.3192
+        },
+        "correct": true
+      },
+      {
+        "question": "中断和异常的处理流程",
+        "true_subject": "计算机组成原理",
+        "predicted_subject": "计算机组成原理",
+        "confidence": 0.5292,
+        "scores": {
+          "数据结构": 0.3325,
+          "计算机组成原理": 0.5292,
+          "计算机网络": 0.3367,
+          "操作系统": 0.323
+        },
+        "correct": true
+      },
+      {
+        "question": "总线的分类和仲裁机制",
+        "true_subject": "计算机组成原理",
+        "predicted_subject": "计算机组成原理",
+        "confidence": 0.526,
+        "scores": {
+          "数据结构": 0.3287,
+          "计算机组成原理": 0.526,
+          "计算机网络": 0.333,
+          "操作系统": 0.3198
+        },
+        "correct": true
+      },
+      {
+        "question": "ALU运算器的基本结构",
+        "true_subject": "计算机组成原理",
+        "predicted_subject": "计算机组成原理",
+        "confidence": 0.6203,
+        "scores": {
+          "数据结构": 0.3358,
+          "计算机组成原理": 0.6203,
+          "计算机网络": 0.3346,
+          "操作系统": 0.3196
+        },
+        "correct": true
+      },
+      {
+        "question": "指令周期的四个阶段",
+        "true_subject": "计算机组成原理",
+        "predicted_subject": "计算机组成原理",
+        "confidence": 0.5202,
+        "scores": {
+          "数据结构": 0.3271,
+          "计算机组成原理": 0.5202,
+          "计算机网络": 0.326,
+          "操作系统": 0.3199
+        },
+        "correct": true
+      },
+      {
+        "question": "存储器层次结构设计思想",
+        "true_subject": "计算机组成原理",
+        "predicted_subject": "计算机组成原理",
+        "confidence": 0.5342,
+        "scores": {
+          "数据结构": 0.3425,
+          "计算机组成原理": 0.5342,
+          "计算机网络": 0.3328,
+          "操作系统": 0.3224
+        },
+        "correct": true
+      }
+    ]
+  },
+  "metrics": {
+    "数据结构": {
+      "TP": 10,
+      "FP": 0,
+      "FN": 0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1": 1.0
+    },
+    "计算机网络": {
+      "TP": 10,
+      "FP": 0,
+      "FN": 0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1": 1.0
+    },
+    "操作系统": {
+      "TP": 10,
+      "FP": 0,
+      "FN": 0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1": 1.0
+    },
+    "计算机组成原理": {
+      "TP": 10,
+      "FP": 0,
+      "FN": 0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1": 1.0
+    },
+    "_macro_avg": {
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1": 1.0
+    },
+    "_accuracy": 1.0
+  }
+}

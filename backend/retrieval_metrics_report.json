@@ -1,0 +1,41 @@
+{
+  "knowledge_base_stats": {
+    "dimension": 768,
+    "total_documents": 2336,
+    "subject_count": 4,
+    "subjects": {
+      "数据结构": {
+        "documents": 459,
+        "metadata_records": 459,
+        "index_file": "D:\\university\\大三\\大三下\\多模态大模型原理与应用\\大作业\\backend\\data\\faiss_index\\data_structure.index"
+      },
+      "计算机组成原理": {
+        "documents": 1213,
+        "metadata_records": 1213,
+        "index_file": "D:\\university\\大三\\大三下\\多模态大模型原理与应用\\大作业\\backend\\data\\faiss_index\\computer_organization.index"
+      },
+      "计算机网络": {
+        "documents": 246,
+        "metadata_records": 246,
+        "index_file": "D:\\university\\大三\\大三下\\多模态大模型原理与应用\\大作业\\backend\\data\\faiss_index\\computer_network.index"
+      },
+      "操作系统": {
+        "documents": 418,
+        "metadata_records": 418,
+        "index_file": "D:\\university\\大三\\大三下\\多模态大模型原理与应用\\大作业\\backend\\data\\faiss_index\\operating_system.index"
+      }
+    }
+  },
+  "evaluation_method": "leave_one_out",
+  "metrics": {
+    "total_queries": 60,
+    "mrr": 0.9506,
+    "avg_rank": 1.15,
+    "hit_rate": {
+      "hit@1": 0.9167,
+      "hit@3": 0.9833,
+      "hit@5": 1.0,
+      "hit@10": 1.0
+    }
+  }
+}

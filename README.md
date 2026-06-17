@@ -267,40 +267,6 @@ GET /api/chat/history?session_id=abc123&limit=10
 GET /api/chat/source/msg-id?session_id=abc123
 ```
 
-## 常见问题
-
-### Q：后端启动失败，提示模型路径错误
-**A**：编辑 `backend/config.py`，更正 `QWEN_MODEL_PATH`：
-```python
-QWEN_MODEL_PATH = r"C:\Users\HP\.cache\modelscope\hub\models\Qwen\Qwen2___5-VL-7B-Instruct"
-```
-
-### Q：前端无法连接后端
-**A**：检查：
-1. 后端是否运行在 `http://localhost:5000`
-2. 是否关闭了防火墙
-3. 浏览器控制台是否有 CORS 错误
-
-### Q：检索不到文档
-**A**：
-1. 确保运行了 `python tools/build_index.py`
-2. 检查 `data/faiss_index/` 文件夹是否存在
-3. 查看 `logs/app.log` 日志
-
-### Q：显存不足
-**A**：
-- 默认使用 4-bit 量化，显存占用 ~8GB
-- 如果仍然不足，在 `config.py` 中改为：
-```python
-QWEN_CONFIG["device"] = "cpu"  # 使用 CPU（会很慢）
-```
-
-### Q：怎样添加自己的知识库
-**A**：
-1. 准备 JSON 格式的文档
-2. 放入或修改 `backend/data/` 目录
-3. 运行 `python tools/build_index.py`
-
 ## 性能指标
 
 | 指标 | 值 |
@@ -310,28 +276,6 @@ QWEN_CONFIG["device"] = "cpu"  # 使用 CPU（会很慢）
 | 平均回复长度 | 200-300 词 |
 | 最大文件上传 | 50MB |
 | 会话并发数 | 取决于硬件 |
-
-## 开发调试
-
-### 启用调试日志
-
-编辑 `backend/config.py`：
-```python
-LOG_LEVEL = "DEBUG"  # 显示详细日志
-```
-
-### 测试单个模块
-
-```bash
-# 测试 Qwen 推理
-python -c "from agent.qwen_inference import QwenInference; q = QwenInference()"
-
-# 测试嵌入
-python -c "from agent.embedding import EmbeddingManager; e = EmbeddingManager(); print(e.embed_text('test'))"
-
-# 测试 RAG
-python -c "from agent.rag import RAGEngine; rag = RAGEngine(); print(rag.answer_question('什么是B树'))"
-```
 
 ## 技术栈
 

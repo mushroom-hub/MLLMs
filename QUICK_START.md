@@ -68,8 +68,10 @@ python tools/prepare_sample_data.py
 # 方式二：使用完整的 dataset 数据
 python tools/build_index.py --source dataset
 ```
+### 步骤 4：设置API_key
+请务必根据`./backend/API_SETUP.md`指南，将API key替换为你自己的API密钥
 
-### 步骤 4：启动后端
+### 步骤 5：启动后端
 
 ```bash
 # Windows
@@ -87,7 +89,7 @@ python web/app.py
 * Running on http://0.0.0.0:5000
 ```
 
-### 步骤 5：启动前端（新终端窗口）
+### 步骤 6：启动前端（新终端窗口）
 
 ```bash
 cd ../UI
@@ -151,15 +153,6 @@ QWEN_CONFIG["device"] = "cpu"  # 使用 CPU（会很慢）
 2. 放入或修改 `backend/data/` 目录
 3. 运行 `python tools/build_index.py`
 
-## 性能指标
-
-| 指标 | 值 |
-|------|-----|
-| 显存占用 | ~8GB（4-bit 量化） |
-| 首次回复时间 | 3-5 秒 |
-| 平均回复长度 | 200-300 词 |
-| 最大文件上传 | 50MB |
-| 会话并发数 | 取决于硬件 |
 
 ## 开发调试
 
@@ -182,18 +175,6 @@ python -c "from agent.embedding import EmbeddingManager; e = EmbeddingManager();
 # 测试 RAG
 python -c "from agent.rag import RAGEngine; rag = RAGEngine(); print(rag.answer_question('什么是B树'))"
 ```
-
-## 技术栈
-
-| 组件 | 技术 |
-|------|------|
-| LLM | Qwen2.5-VL 7B |
-| 向量DB | FAISS |
-| 后端框架 | Flask |
-| 前端框架 | React 18 + TypeScript |
-| UI 库 | TailwindCSS + Radix UI |
-| 嵌入模型 | text2vec-large-chinese |
-| OCR | PaddleOCR |
 
 ## 文件清单
 

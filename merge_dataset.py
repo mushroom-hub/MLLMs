@@ -24,10 +24,10 @@ def merge_datasets():
         file_path = os.path.join(source_dir, chapter_file)
         
         if not os.path.exists(file_path):
-            print(f"⚠️  警告：文件 {chapter_file} 不存在，跳过")
+            print(f"  警告：文件 {chapter_file} 不存在，跳过")
             continue
         
-        print(f"📖 处理文件：{chapter_file}")
+        print(f" 处理文件：{chapter_file}")
         
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
@@ -61,13 +61,13 @@ def merge_datasets():
                 }
                 merged_data.append(item)
             
-            print(f"   ✓ 提取了 {len(question_answers)} 个问答对")
+            print(f"  提取了 {len(question_answers)} 个问答对")
         
         except json.JSONDecodeError as e:
-            print(f"   ✗ 错误：文件格式不正确 - {e}")
+            print(f"  错误：文件格式不正确 - {e}")
             continue
         except Exception as e:
-            print(f"   ✗ 错误：{e}")
+            print(f"  错误：{e}")
             continue
     
     # 确保输出目录存在
@@ -77,7 +77,6 @@ def merge_datasets():
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(merged_data, f, ensure_ascii=False, indent=2)
     
-    print(f"\n✅ 成功！")
     print(f"   总共处理：{len(chapter_files)} 个章节文件")
     print(f"   整合数据：{len(merged_data)} 个问答对")
     print(f"   输出文件：{output_path}")
